@@ -1,0 +1,44 @@
+body {
+  background-color: #272b30;
+}
+
+.parent {
+  height: 30vh;
+  background-image: url(img/wraper.png);
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  top: 90%;
+  background-color: #3a497b;
+  border-radius: 90px !important;
+  -webkit-border-radius: 90px !important;
+  -moz-border-radius: 90px !important;
+  -ms-border-radius: 90px !important;
+  -o-border-radius: 90px !important;
+}
+ul li a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff !important;
+  padding: 0px 15px !important;
+}
+.active {
+  color: #0394c7 !important;
+}
+ul li a:hover {
+  color: #0394c7 !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.img img {
+  width: 40px;
+  padding: 0px 4px;
+}
+#card {
+  overflow: hidden;
+  cursor: pointer;
+}
+
